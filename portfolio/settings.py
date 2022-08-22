@@ -35,6 +35,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # Custom app
+    'contact_me.apps.ContactMeConfig',
+    # Package
     'rest_framework',   # rest framework
     "corsheaders",      # django-cors-headers
 
