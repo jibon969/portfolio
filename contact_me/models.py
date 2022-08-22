@@ -18,6 +18,9 @@ class Contact(models.Model):
     def __str__(self):
         return self.email
 
+    class Meta:
+        ordering = ['-timestamp']
+
 
 class Replay(models.Model):
     send_to = models.EmailField(max_length=100, blank=True, null=True)
