@@ -6,6 +6,7 @@ class ContactSerializer(serializers.ModelSerializer):
     class Meta:
         model = Contact
         fields = [
+            'id',
             'subject',
             'name',
             'phone',
@@ -17,6 +18,7 @@ class ReplaySerializer(serializers.ModelSerializer):
     class Meta:
         model = Replay
         fields = [
+            'id',
             'send_to',
             'subject',
             'message',
