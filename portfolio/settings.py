@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # Custom app
+    'home.apps.HomeConfig',
     'contact_me.apps.ContactMeConfig',
     # Package
     'rest_framework',   # rest framework
